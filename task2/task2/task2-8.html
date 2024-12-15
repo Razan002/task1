@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise#3-Registration Form(2)</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <br>
+    <div style="margin-left: 18%; width: 40%;">
+    <fieldset style="background-color: azure;">
+            <legend>Personal  Details:</legend>
+<br>
+    <label for="fname"style="margin-left: 7%;">First name</label>
+    <input type="text" id="fname" name="fname" required><br><br>
+    <label for="lname"style="margin-left: 7%;">Last name</label>
+    <input type="text" id="lname" name="lname" required><br><br>
+    <label for="email"style="margin-left: 7%;">Email address</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <r style="margin-left: 7%;">Gender  <input  id= "Male"  type="radio"  value="Male" name="1">
+        <label for="Male">Male</label><input  id= "Female"  type="radio"  value="Female" name="1"><label for="Female">Female</label>
+    </r><br><br>
+    </fieldset>
+    </div>
+    <div style="margin-left: 18%; width: 40%;">
+        <fieldset style="background-color: azure;">
+                <legend >City:</legend>
+                <r style="margin-left: 13%;">City</r>
+                <input list="city" name= "city" placeholder="Amman" >
+                <datalist id ="city">
+            <option value="Amman">
+        <option value="Aqabaa">
+         <option value="Irbid">
+                </datalist>
+    <br>
+        </fieldset>
+        <br>
+        <button onclick style="margin-left:20%;">Subscribe</button> 
+        </div>
+</body>
+</html>
